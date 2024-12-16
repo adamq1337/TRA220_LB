@@ -1,0 +1,634 @@
+tau = 0.5173205080756887
+__add_elements_to_nodes
+Time taken: 0.009666684025432914
+
+__create_cell_connectivity
+        cardinal_idx: 2.0267653859918937
+        create_connectivity: 0.13967591495020315
+Time taken: 2.1664796689874493
+
+__create_face_connectivity
+Time taken: 0.00691820599604398
+
+__setup_streaming_maps
+Time taken: 1.327128958015237
+
+concatenate streaming maps
+Time taken: 0.00018199702026322484
+
+/cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:17: NumbaPerformanceWarning: np.dot() is faster on contiguous arrays, called on (Array(float64, 1, 'A', False, aligned=True), Array(float64, 2, 'C', False, aligned=True))
+  u[:, i] = np.dot(c[:, i], f)/rho
+/cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:17: NumbaPerformanceWarning: np.dot() is faster on contiguous arrays, called on (Array(float64, 1, 'A', False, aligned=True), Array(float64, 2, 'C', False, aligned=True))
+  u[:, i] = np.dot(c[:, i], f)/rho
+*************************************************
+iter:      0, Mass check: 10000.000000000002
+        Time boundaries       0.2047473020
+        Time streaming        0.5167032140
+        Time macroscopic      0.0002912560
+        Time equilibrium      0.0001181220
+        Time source_force     0.0000123940
+        Time collision        0.2594224249
+        Time sum              0.9812947129
+MLUPs: 0.0
+Total time: 0.9813014499959536
+Time exporting: 0.06013335700845346
+*************************************************
+iter:    100, Mass check: 9999.99999999995
+        Time boundaries       0.0012461665
+        Time streaming        0.0031535859
+        Time macroscopic      0.0098879251
+        Time equilibrium      0.0083029876
+        Time source_force     0.0004544677
+        Time collision        0.0028413263
+        Time sum              0.0258864591
+MLUPs: 0.9927498493631773
+Total time: 1.007303099206183
+Time exporting: 0.0030676330206915736
+*************************************************
+iter:    200, Mass check: 9999.999999999844
+        Time boundaries       0.0011256607
+        Time streaming        0.0031290658
+        Time macroscopic      0.0098580720
+        Time equilibrium      0.0084956030
+        Time source_force     0.0004421224
+        Time collision        0.0028388176
+        Time sum              0.0258893415
+MLUPs: 1.9355388189265963
+Total time: 1.0333039980614558
+Time exporting: 0.0022938569891266525
+*************************************************
+iter:    300, Mass check: 9999.999999999736
+        Time boundaries       0.0011276271
+        Time streaming        0.0031093498
+        Time macroscopic      0.0098380868
+        Time equilibrium      0.0083570272
+        Time source_force     0.0004362129
+        Time collision        0.0028185255
+        Time sum              0.0256868294
+MLUPs: 2.832588554624158
+Total time: 1.059101928200107
+Time exporting: 0.0020188799826428294
+*************************************************
+iter:    400, Mass check: 9999.999999999629
+        Time boundaries       0.0011251881
+        Time streaming        0.0031010819
+        Time macroscopic      0.0098292620
+        Time equilibrium      0.0079818442
+        Time source_force     0.0004330560
+        Time collision        0.0028192366
+        Time sum              0.0252896688
+MLUPs: 3.688338783967667
+Total time: 1.0844990751356818
+Time exporting: 0.0017348190303891897
+*************************************************
+iter:    500, Mass check: 9999.999999999522
+        Time boundaries       0.0011198959
+        Time streaming        0.0031130492
+        Time macroscopic      0.0098091088
+        Time equilibrium      0.0089518718
+        Time source_force     0.0004454270
+        Time collision        0.0028520022
+        Time sum              0.0262913549
+MLUPs: 4.5008532582685445
+Total time: 1.110900469997432
+Time exporting: 0.0018719839863479137
+*************************************************
+iter:    600, Mass check: 9999.999999999414
+        Time boundaries       0.0011226237
+        Time streaming        0.0031073501
+        Time macroscopic      0.0098384708
+        Time equilibrium      0.0080931421
+        Time source_force     0.0004425331
+        Time collision        0.0028375570
+        Time sum              0.0254416768
+MLUPs: 5.279591165408323
+Total time: 1.1364516327157617
+Time exporting: 0.0018294110195711255
+*************************************************
+iter:    700, Mass check: 9999.999999999309
+        Time boundaries       0.0011241151
+        Time streaming        0.0031157097
+        Time macroscopic      0.0098351239
+        Time equilibrium      0.0090547331
+        Time source_force     0.0004443185
+        Time collision        0.0028588780
+        Time sum              0.0264328783
+MLUPs: 6.0189399469524245
+Total time: 1.162995487859007
+Time exporting: 0.0017615279648452997
+*************************************************
+iter:    800, Mass check: 9999.9999999992
+        Time boundaries       0.0011227241
+        Time streaming        0.0031139541
+        Time macroscopic      0.0098383176
+        Time equilibrium      0.0091823366
+        Time source_force     0.0004422761
+        Time collision        0.0028381082
+        Time sum              0.0265377167
+MLUPs: 6.7247149343597235
+Total time: 1.1896415057126433
+Time exporting: 0.0018001500284299254
+*************************************************
+iter:    900, Mass check: 9999.999999999094
+        Time boundaries       0.0011243409
+        Time streaming        0.0031091433
+        Time macroscopic      0.0098349344
+        Time equilibrium      0.0081493481
+        Time source_force     0.0004419288
+        Time collision        0.0028292685
+        Time sum              0.0254889640
+MLUPs: 7.40595036429063
+Total time: 1.2152390385163017
+Time exporting: 0.0019132799934595823
+*************************************************
+iter:   1000, Mass check: 9999.999999998985
+        Time boundaries       0.0011275152
+        Time streaming        0.0031109161
+        Time macroscopic      0.0098296219
+        Time equilibrium      0.0081991850
+        Time source_force     0.0004330229
+        Time collision        0.0028392220
+        Time sum              0.0255394830
+MLUPs: 8.058762408401632
+Total time: 1.2408853237284347
+Time exporting: 0.0018112650141119957
+*************************************************
+iter:   1100, Mass check: 9999.99999999888
+        Time boundaries       0.0011249039
+        Time streaming        0.0031238561
+        Time macroscopic      0.0098333367
+        Time equilibrium      0.0085859231
+        Time source_force     0.0004498127
+        Time collision        0.0028260321
+        Time sum              0.0259438647
+MLUPs: 8.682350876946737
+Total time: 1.2669379705912434
+Time exporting: 0.0019772480009123683
+*************************************************
+iter:   1200, Mass check: 9999.99999999877
+        Time boundaries       0.0011322459
+        Time streaming        0.0031049930
+        Time macroscopic      0.0098887133
+        Time equilibrium      0.0080318869
+        Time source_force     0.0004363618
+        Time collision        0.0028432480
+        Time sum              0.0254374489
+MLUPs: 9.284435793086615
+Total time: 1.2924856466706842
+Time exporting: 0.0018403480062261224
+*************************************************
+iter:   1300, Mass check: 9999.999999998663
+        Time boundaries       0.0011316210
+        Time streaming        0.0031066369
+        Time macroscopic      0.0098806930
+        Time equilibrium      0.0081699034
+        Time source_force     0.0004423819
+        Time collision        0.0028566911
+        Time sum              0.0255879274
+MLUPs: 9.862061354161748
+Total time: 1.318182835530024
+Time exporting: 0.001887922000605613
+*************************************************
+iter:   1400, Mass check: 9999.999999998556
+        Time boundaries       0.0011246001
+        Time streaming        0.0031048880
+        Time macroscopic      0.0098100521
+        Time equilibrium      0.0083752591
+        Time source_force     0.0004380536
+        Time collision        0.0028293400
+        Time sum              0.0256821928
+MLUPs: 10.416842190956782
+Total time: 1.3439773535355926
+Time exporting: 0.0017416089540347457
+*************************************************
+iter:   1500, Mass check: 9999.999999998448
+        Time boundaries       0.0011310401
+        Time streaming        0.0031145810
+        Time macroscopic      0.0098244313
+        Time equilibrium      0.0080862799
+        Time source_force     0.0004369318
+        Time collision        0.0028219510
+        Time sum              0.0254152151
+MLUPs: 10.95289403977901
+Total time: 1.3695010602241382
+Time exporting: 0.001975083025172353
+*************************************************
+iter:   1600, Mass check: 9999.999999998341
+        Time boundaries       0.0011197922
+        Time streaming        0.0031140155
+        Time macroscopic      0.0098655420
+        Time equilibrium      0.0081424610
+        Time source_force     0.0004420829
+        Time collision        0.0028151998
+        Time sum              0.0254990935
+MLUPs: 11.468606547804162
+Total time: 1.3951128180488013
+Time exporting: 0.0018311110325157642
+*************************************************
+iter:   1700, Mass check: 9999.999999998236
+        Time boundaries       0.0011268447
+        Time streaming        0.0031237293
+        Time macroscopic      0.0098430439
+        Time equilibrium      0.0093772160
+        Time source_force     0.0004464791
+        Time collision        0.0028440022
+        Time sum              0.0267613152
+MLUPs: 11.95511973353799
+Total time: 1.4219849218497984
+Time exporting: 0.0017750830156728625
+*************************************************
+iter:   1800, Mass check: 9999.999999998126
+        Time boundaries       0.0011268070
+        Time streaming        0.0031015559
+        Time macroscopic      0.0098261688
+        Time equilibrium      0.0085003531
+        Time source_force     0.0004463350
+        Time collision        0.0028273538
+        Time sum              0.0258285735
+MLUPs: 12.431614353213632
+Total time: 1.4479213631129824
+Time exporting: 0.0018528999644331634
+*************************************************
+iter:   1900, Mass check: 9999.99999999802
+        Time boundaries       0.0011293213
+        Time streaming        0.0031128729
+        Time macroscopic      0.0098382515
+        Time equilibrium      0.0082879820
+        Time source_force     0.0004425102
+        Time collision        0.0028331277
+        Time sum              0.0256440658
+MLUPs: 12.892943775500818
+Total time: 1.473674308275804
+Time exporting: 0.0018270650180056691
+*************************************************
+iter:   2000, Mass check: 9999.999999997912
+        Time boundaries       0.0011281592
+        Time streaming        0.0031099349
+        Time macroscopic      0.0098253938
+        Time equilibrium      0.0087121749
+        Time source_force     0.0004430530
+        Time collision        0.0028228429
+        Time sum              0.0260415587
+MLUPs: 13.33487089291185
+Total time: 1.4998270444921218
+Time exporting: 0.0018845550366677344
+*************************************************
+iter:   2100, Mass check: 9999.999999997804
+        Time boundaries       0.0011266770
+        Time streaming        0.0031002383
+        Time macroscopic      0.0098250639
+        Time equilibrium      0.0080149058
+        Time source_force     0.0004439670
+        Time collision        0.0028526662
+        Time sum              0.0253635182
+MLUPs: 13.767791575403205
+Total time: 1.5252990928129293
+Time exporting: 0.0018595889559946954
+*************************************************
+iter:   2200, Mass check: 9999.999999997697
+        Time boundaries       0.0011278212
+        Time streaming        0.0031109363
+        Time macroscopic      0.0098243196
+        Time equilibrium      0.0087189892
+        Time source_force     0.0004414119
+        Time collision        0.0028337889
+        Time sum              0.0260572670
+MLUPs: 14.180134772715824
+Total time: 1.551466213306412
+Time exporting: 0.0019270280026830733
+*************************************************
+iter:   2300, Mass check: 9999.99999999759
+        Time boundaries       0.0011282914
+        Time streaming        0.0031172677
+        Time macroscopic      0.0098618371
+        Time equilibrium      0.0081606082
+        Time source_force     0.0004407538
+        Time collision        0.0028496949
+        Time sum              0.0255584532
+MLUPs: 14.583415962598158
+Total time: 1.5771339210914448
+Time exporting: 0.0017781149945221841
+*************************************************
+iter:   2400, Mass check: 9999.999999997484
+        Time boundaries       0.0011247798
+        Time streaming        0.0031032367
+        Time macroscopic      0.0098413250
+        Time equilibrium      0.0087496794
+        Time source_force     0.0004396959
+        Time collision        0.0028257930
+        Time sum              0.0260845097
+MLUPs: 14.968867562722293
+Total time: 1.6033276999369264
+Time exporting: 0.0018787509761750698
+*************************************************
+iter:   2500, Mass check: 9999.999999997375
+        Time boundaries       0.0011279150
+        Time streaming        0.0031196129
+        Time macroscopic      0.0098324409
+        Time equilibrium      0.0089298920
+        Time source_force     0.0004366249
+        Time collision        0.0028335640
+        Time sum              0.0262800496
+MLUPs: 15.340089956296826
+Total time: 1.6297166490694508
+Time exporting: 0.0017727309605106711
+*************************************************
+iter:   2600, Mass check: 9999.999999997268
+        Time boundaries       0.0011240391
+        Time streaming        0.0031108107
+        Time macroscopic      0.0098181092
+        Time equilibrium      0.0079074309
+        Time source_force     0.0004439248
+        Time collision        0.0028335009
+        Time sum              0.0252378155
+MLUPs: 15.709329575531799
+Total time: 1.655067447340116
+Time exporting: 0.0018002300057560205
+*************************************************
+iter:   2700, Mass check: 9999.999999997162
+        Time boundaries       0.0011223128
+        Time streaming        0.0031257754
+        Time macroscopic      0.0098200912
+        Time equilibrium      0.0077086432
+        Time source_force     0.0004401898
+        Time collision        0.0028395099
+        Time sum              0.0250565223
+MLUPs: 16.06920559490325
+Total time: 1.6802324072923511
+Time exporting: 0.002334741991944611
+*************************************************
+iter:   2800, Mass check: 9999.999999997053
+        Time boundaries       0.0011246020
+        Time streaming        0.0031186012
+        Time macroscopic      0.0098550621
+        Time equilibrium      0.0087408600
+        Time source_force     0.0004320853
+        Time collision        0.0028333786
+        Time sum              0.0261045892
+MLUPs: 16.40836501981597
+Total time: 1.7064466792508028
+Time exporting: 0.0017951170448213816
+*************************************************
+iter:   2900, Mass check: 9999.999999996944
+        Time boundaries       0.0011264627
+        Time streaming        0.0031096238
+        Time macroscopic      0.0098274017
+        Time equilibrium      0.0082975269
+        Time source_force     0.0004408956
+        Time collision        0.0028395691
+        Time sum              0.0256414797
+MLUPs: 16.741721813343293
+Total time: 1.7321993713267148
+Time exporting: 0.001743120956234634
+*************************************************
+iter:   3000, Mass check: 9999.999999996839
+        Time boundaries       0.0011202947
+        Time streaming        0.0031304681
+        Time macroscopic      0.0098327178
+        Time equilibrium      0.0089615062
+        Time source_force     0.0004380992
+        Time collision        0.0028451779
+        Time sum              0.0263282640
+MLUPs: 17.05863859293473
+Total time: 1.7586397552513517
+Time exporting: 0.0016885260120034218
+*************************************************
+iter:   3100, Mass check: 9999.999999996731
+        Time boundaries       0.0011287860
+        Time streaming        0.0031201995
+        Time macroscopic      0.0098272800
+        Time equilibrium      0.0084350363
+        Time source_force     0.0004449129
+        Time collision        0.0028472831
+        Time sum              0.0258034978
+MLUPs: 17.371306670652245
+Total time: 1.7845519964466803
+Time exporting: 0.001713729987386614
+*************************************************
+iter:   3200, Mass check: 9999.999999996624
+        Time boundaries       0.0011193159
+        Time streaming        0.0031145511
+        Time macroscopic      0.0098036909
+        Time equilibrium      0.0090207082
+        Time source_force     0.0004412803
+        Time collision        0.0028388816
+        Time sum              0.0263384280
+MLUPs: 17.669803741224836
+Total time: 1.8109991751261987
+Time exporting: 0.0017672799876891077
+*************************************************
+iter:   3300, Mass check: 9999.999999996517
+        Time boundaries       0.0011218737
+        Time streaming        0.0031279961
+        Time macroscopic      0.0098267211
+        Time equilibrium      0.0086947092
+        Time source_force     0.0004391407
+        Time collision        0.0028406338
+        Time sum              0.0260510746
+MLUPs: 17.962438379822213
+Total time: 1.8371670539490879
+Time exporting: 0.0018385840230621397
+*************************************************
+iter:   3400, Mass check: 9999.99999999641
+        Time boundaries       0.0011214478
+        Time streaming        0.0031187978
+        Time macroscopic      0.0098169891
+        Time equilibrium      0.0081393655
+        Time source_force     0.0004344544
+        Time collision        0.0028390628
+        Time sum              0.0254701175
+MLUPs: 18.252583926546553
+Total time: 1.8627499611466192
+Time exporting: 0.0019183490076102316
+*************************************************
+iter:   3500, Mass check: 9999.999999996302
+        Time boundaries       0.0011249781
+        Time streaming        0.0031064429
+        Time macroscopic      0.0098178150
+        Time equilibrium      0.0081093030
+        Time source_force     0.0004389341
+        Time collision        0.0028392916
+        Time sum              0.0254367646
+MLUPs: 18.53521081579636
+Total time: 1.8882979183690622
+Time exporting: 0.0018195900483988225
+*************************************************
+iter:   3600, Mass check: 9999.999999996195
+        Time boundaries       0.0011211491
+        Time streaming        0.0030998916
+        Time macroscopic      0.0098165307
+        Time equilibrium      0.0081649279
+        Time source_force     0.0004511400
+        Time collision        0.0028309571
+        Time sum              0.0254845964
+MLUPs: 18.809844708749587
+Total time: 1.9138913987553678
+Time exporting: 0.001895016001071781
+*************************************************
+iter:   3700, Mass check: 9999.99999999609
+        Time boundaries       0.0011306510
+        Time streaming        0.0031036141
+        Time macroscopic      0.0098317297
+        Time equilibrium      0.0091437160
+        Time source_force     0.0004361580
+        Time collision        0.0028299841
+        Time sum              0.0264758529
+MLUPs: 19.06750476299583
+Total time: 1.9404741448815912
+Time exporting: 0.001746429014019668
+*************************************************
+iter:   3800, Mass check: 9999.99999999598
+        Time boundaries       0.0011272040
+        Time streaming        0.0031225929
+        Time macroscopic      0.0098469440
+        Time equilibrium      0.0079737778
+        Time source_force     0.0004397433
+        Time collision        0.0028497722
+        Time sum              0.0253600342
+MLUPs: 19.32913731245354
+Total time: 1.9659439211245626
+Time exporting: 0.0016441260231658816
+*************************************************
+iter:   3900, Mass check: 9999.999999995873
+        Time boundaries       0.0011225159
+        Time streaming        0.0031213993
+        Time macroscopic      0.0098529852
+        Time equilibrium      0.0086224512
+        Time source_force     0.0004403297
+        Time collision        0.0028366069
+        Time sum              0.0259962881
+MLUPs: 19.57782458142669
+Total time: 1.992049721244257
+Time exporting: 0.0019008530071005225
+*************************************************
+iter:   4000, Mass check: 9999.999999995764
+        Time boundaries       0.0011228806
+        Time streaming        0.0031106669
+        Time macroscopic      0.0098468905
+        Time equilibrium      0.0081724019
+        Time source_force     0.0004367030
+        Time collision        0.0028460350
+        Time sum              0.0255355778
+MLUPs: 19.824606741816186
+Total time: 2.017694500624202
+Time exporting: 0.0020176160032860935
+*************************************************
+iter:   4100, Mass check: 9999.999999995656
+        Time boundaries       0.0011270909
+        Time streaming        0.0031206722
+        Time macroscopic      0.0098630271
+        Time equilibrium      0.0080868821
+        Time source_force     0.0004461491
+        Time collision        0.0028575441
+        Time sum              0.0255013655
+MLUPs: 20.065513241421336
+Total time: 2.0433068173588254
+Time exporting: 0.0018553650006651878
+*************************************************
+iter:   4200, Mass check: 9999.999999995549
+        Time boundaries       0.0011342078
+        Time streaming        0.0031164936
+        Time macroscopic      0.0098717269
+        Time equilibrium      0.0090836129
+        Time source_force     0.0004335259
+        Time collision        0.0028469110
+        Time sum              0.0264864782
+MLUPs: 20.29078148617226
+Total time: 2.069905490265228
+Time exporting: 0.0017748879618011415
+*************************************************
+iter:   4300, Mass check: 9999.999999995442
+        Time boundaries       0.0011268189
+        Time streaming        0.0031139887
+        Time macroscopic      0.0098694522
+        Time equilibrium      0.0091921667
+        Time source_force     0.0004406429
+        Time collision        0.0028457441
+        Time sum              0.0265888135
+MLUPs: 20.509359419157942
+Total time: 2.0966037564212456
+Time exporting: 0.0017910180031321943
+*************************************************
+iter:   4400, Mass check: 9999.999999995336
+        Time boundaries       0.0011222522
+        Time streaming        0.0031215191
+        Time macroscopic      0.0098495330
+        Time equilibrium      0.0092242071
+        Time source_force     0.0004373256
+        Time collision        0.0028315223
+        Time sum              0.0265863593
+MLUPs: 20.722459524400776
+Total time: 2.1233000816428103
+Time exporting: 0.001647857017815113
+*************************************************
+iter:   4500, Mass check: 9999.999999995227
+        Time boundaries       0.0011344177
+        Time streaming        0.0031157900
+        Time macroscopic      0.0098653074
+        Time equilibrium      0.0093646802
+        Time source_force     0.0004400227
+        Time collision        0.0028554996
+        Time sum              0.0267757174
+MLUPs: 20.92841660265237
+Total time: 2.150186555169057
+Time exporting: 0.0020796149619854987
+*************************************************
+iter:   4600, Mass check: 9999.99999999512
+        Time boundaries       0.0011343420
+        Time streaming        0.0031097360
+        Time macroscopic      0.0099122164
+        Time equilibrium      0.0094821783
+        Time source_force     0.0004340252
+        Time collision        0.0028190591
+        Time sum              0.0268915571
+MLUPs: 21.128191454239474
+Total time: 2.1771858750726096
+Time exporting: 0.0020058039808645844
+*************************************************
+iter:   4700, Mass check: 9999.999999995012
+        Time boundaries       0.0011228080
+        Time streaming        0.0030995859
+        Time macroscopic      0.0096358393
+        Time equilibrium      0.0079147078
+        Time source_force     0.0004370064
+        Time collision        0.0027869660
+        Time sum              0.0249969134
+MLUPs: 21.34141028034481
+Total time: 2.2022911973763257
+Time exporting: 0.001946699048858136
+*************************************************
+iter:   4800, Mass check: 9999.999999994907
+        Time boundaries       0.0011266210
+        Time streaming        0.0031026855
+        Time macroscopic      0.0096265490
+        Time equilibrium      0.0093672311
+        Time source_force     0.0004366743
+        Time collision        0.0028003241
+        Time sum              0.0264600851
+MLUPs: 21.535657975414715
+Total time: 2.228861549287103
+Time exporting: 0.0018408920150250196
+*************************************************
+iter:   4900, Mass check: 9999.999999994798
+        Time boundaries       0.0011377039
+        Time streaming        0.0031007963
+        Time macroscopic      0.0096254424
+        Time equilibrium      0.0082334184
+        Time source_force     0.0004348890
+        Time collision        0.0027860352
+        Time sum              0.0253182852
+MLUPs: 21.73636175167887
+Total time: 2.2542871047044173
+Time exporting: 0.0016691000200808048
+*************************************************
+iter:   5000, Mass check: 9999.999999994692
+        Time boundaries       0.0011138182
+        Time streaming        0.0030584003
+        Time macroscopic      0.0094958948
+        Time equilibrium      0.0085138764
+        Time source_force     0.0004284282
+        Time collision        0.0027704680
+        Time sum              0.0253808859
+MLUPs: 21.931993374883533
+Total time: 2.279774535098113
+Time exporting: 0.0017634539981372654
