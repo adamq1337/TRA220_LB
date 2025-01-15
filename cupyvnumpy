@@ -1,0 +1,24 @@
+numpy normal:
+MLUPs: 17.680637908090652
+Total time: 2.8279522639350034
+Time exporting: 0.0018290199805051088
+  
+cupy array insert in boundary: faster
+MLUPs: 17.69413977008652
+Total time: 2.8257943392382003
+Time exporting: 0.0021193770226091146
+
+cp array in element + boundary: even faster
+MLUPs: 18.191029342520693
+Total time: 2.748607517394703
+Time exporting: 0.0016342480084858835
+
+cp array in element boundary and cp.cross on face: made it go slower
+MLUPs: 17.226526754194413
+Total time: 2.902500353869982
+Time exporting: 0.003574608010239899
+
+same but cp.linalg.norm on face aswell: made it faster but not enough
+MLUPs: 17.387326006872826
+Total time: 2.8756578199681826
+Time exporting: 0.001573266985360533
