@@ -22,3 +22,13 @@ same but cp.linalg.norm on face aswell: made it faster but not enough
 MLUPs: 17.387326006872826
 Total time: 2.8756578199681826
 Time exporting: 0.001573266985360533
+
++linalg.norm in boundary: made it faster
+MLUPs: 17.808585743973445
+Total time: 2.8076345151057467
+Time exporting: 0.0016475149895995855
+
++cp in cell.py:
+MLUPs: 17.926919761722584
+Total time: 2.7891015670611523
+Time exporting: 0.0015490580117329955
