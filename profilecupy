@@ -22,3 +22,25 @@ L = 1000, numpy
     10002    0.018    0.000    0.018    0.000 {built-in method builtins.isinstance}
     10002    0.006    0.000    0.006    0.000 {method 'items' of 'dict' objects}
     10002    0.004    0.000    0.004    0.000 /apps/Arch/software/SciPy-bundle/2023.07-gfbf-2023a/lib/python3.11/site-packages/numpy/core/fromnumeric.py:2172(_sum_dispatcher)
+L=1000, cupy
+270040 function calls in 1403.814 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     5001  335.944    0.067  443.521    0.089 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:46(equilibrium)
+     5000  428.578    0.086  428.582    0.086 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:76(streaming_bulk)
+     5000  284.271    0.057  284.271    0.057 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:58(collision_bgk)
+     5000  103.250    0.021  103.260    0.021 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:82(streaming_boundary)
+    10002    0.034    0.000  101.587    0.010 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/_math/sumprod.py:11(sum)
+    10002    0.032    0.000  101.519    0.010 {method 'sum' of 'numpy.ndarray' objects}
+    10002    0.017    0.000  101.487    0.010 /apps/Arch/software/SciPy-bundle/2023.07-gfbf-2023a/lib/python3.11/site-packages/numpy/core/_methods.py:47(_sum)
+    10002  101.471    0.010  101.471    0.010 {method 'reduce' of 'numpy.ufunc' objects}
+    10000   62.315    0.006   62.334    0.006 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:96(boundary_bounce_back)
+    55011    0.085    0.000   59.938    0.001 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/linalg/_product.py:43(dot)
+    55011   59.853    0.001   59.853    0.001 {method 'dot' of 'numpy.ndarray' objects}
+     5001    4.586    0.001   43.983    0.009 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:8(density)
+     5001   23.270    0.005   37.842    0.008 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:14(velocity)
+    30002    0.054    0.000    0.054    0.000 /apps/Arch/software/numba/0.58.1-foss-2023a/lib/python3.11/site-packages/numba/misc/special.py:18(__new__)
+    10002    0.034    0.000    0.034    0.000 {built-in method cupy._core._fusion_thread_local.is_fusing}
+    40003    0.022    0.000    0.022    0.000 {method 'disable' of '_lsprof.Profiler' objects}
