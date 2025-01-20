@@ -1,0 +1,53 @@
+  15153 function calls (15119 primitive calls) in 5.256 seconds
+
+   Ordered by: cumulative time
+   List reduced from 315 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.000    0.000    5.256    0.526 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/profile_nb_routines.py:6(test_nb_routines)
+       24    0.000    0.000    4.823    0.201 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/cuda/compiler.py:459(_compile_module_with_cache)
+       24    0.001    0.000    4.822    0.201 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/cuda/compiler.py:490(_compile_with_cache_cuda)
+       13    0.000    0.000    2.690    0.207 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/cuda/compiler.py:672(compile)
+       13    2.690    0.207    2.690    0.207 {built-in method cupy_backends.cuda.libs.nvrtc.compileProgram}
+       12    0.000    0.000    2.607    0.217 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/cuda/compiler.py:277(compile_using_nvrtc)
+       12    0.000    0.000    2.600    0.217 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/cuda/compiler.py:280(_compile)
+       13    2.098    0.161    2.098    0.161 {method 'read' of '_io.BufferedReader' objects}
+       10    0.078    0.008    1.562    0.156 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:32(source_force)
+       10    0.014    0.001    0.636    0.064 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:21(force_velocity)
+       10    0.001    0.000    0.587    0.059 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:14(velocity)
+       10    0.110    0.011    0.564    0.056 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:46(equilibrium)
+       10    0.000    0.000    0.514    0.051 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/_creation/basic.py:160(ones)
+       10    0.000    0.000    0.514    0.051 {method 'fill' of 'cupy._core.core._ndarray_base' objects}
+       10    0.028    0.003    0.491    0.049 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:76(streaming_bulk)
+       10    0.027    0.003    0.458    0.046 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:82(streaming_boundary)
+       90    0.003    0.000    0.217    0.002 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/linalg/_product.py:252(outer)
+       10    0.001    0.000    0.210    0.021 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:39(force)
+       10    0.000    0.000    0.184    0.018 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/random/_sample.py:139(random_sample)
+       10    0.008    0.001    0.106    0.011 /apps/Arch/software/CuPy/13.0.0-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/cupy/random/_generator.py:619(random_sample)
+
+2001 function calls in 6.324 seconds
+
+   Ordered by: cumulative time
+   List reduced from 36 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.011    0.001    6.324    0.632 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/profile_nb_routines.py:6(test_nb_routines)
+       10    0.598    0.060    2.692    0.269 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:32(source_force)
+      110    0.001    0.000    1.358    0.012 /apps/Arch/software/SciPy-bundle/2023.07-gfbf-2023a/lib/python3.11/site-packages/numpy/core/fromnumeric.py:2177(sum)
+      110    0.001    0.000    1.357    0.012 /apps/Arch/software/SciPy-bundle/2023.07-gfbf-2023a/lib/python3.11/site-packages/numpy/core/fromnumeric.py:71(_wrapreduction)
+      110    1.356    0.012    1.356    0.012 {method 'reduce' of 'numpy.ufunc' objects}
+       90    0.965    0.011    0.965    0.011 /apps/Arch/software/SciPy-bundle/2023.07-gfbf-2023a/lib/python3.11/site-packages/numpy/core/numeric.py:841(outer)
+       10    0.808    0.081    0.944    0.094 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:46(equilibrium)
+       10    0.745    0.074    0.745    0.074 {method 'random' of 'numpy.random.mtrand.RandomState' objects}
+       10    0.547    0.055    0.547    0.055 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:58(collision_bgk)
+       10    0.327    0.033    0.327    0.033 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:76(streaming_bulk)
+       30    0.280    0.009    0.280    0.009 /apps/Arch/software/SciPy-bundle/2023.07-gfbf-2023a/lib/python3.11/site-packages/numpy/core/numeric.py:67(zeros_like)
+       10    0.184    0.018    0.184    0.018 {method 'astype' of 'numpy.ndarray' objects}
+       10    0.175    0.017    0.175    0.017 {method 'copy' of 'numpy.ndarray' objects}
+       10    0.136    0.014    0.136    0.014 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:21(force_velocity)
+       10    0.018    0.002    0.111    0.011 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:8(density)
+       10    0.087    0.009    0.087    0.009 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:14(velocity)
+       10    0.056    0.006    0.057    0.006 /cephyr/users/adapers/Vera/Desktop/LBM/lbm/core/nb_routines.py:39(force)
+       20    0.022    0.001    0.022    0.001 {built-in method numpy.arange}
+       50    0.004    0.000    0.004    0.000 {built-in method numpy.zeros}
+       40    0.000    0.000    0.000    0.000 {built-in method numpy.array}
