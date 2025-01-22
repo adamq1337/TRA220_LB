@@ -13,7 +13,7 @@ MLUPs: 18.191029342520693
 Total time: 2.748607517394703
 Time exporting: 0.0016342480084858835
 
-cp array in element boundary and cp.cross on face: made it go slower
+cp array in element, boundary and cp.cross on face: made it go slower
 MLUPs: 17.226526754194413
 Total time: 2.902500353869982
 Time exporting: 0.003574608010239899
