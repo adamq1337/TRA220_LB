@@ -1,0 +1,8 @@
+1000L cupy in boundary, element and 
+MLUPs: 31.118477084743542
+Total time: 160.67624345445074
+Time exporting: 0.042920469073578715
+
+og
+MLUPs: 31.01152321943959
+Total time: 161.2303905428853
