@@ -9,6 +9,7 @@ Total time: 161.2303905428853
 
 L=3216 og
 Million Lattice Udates Per second(MLUPs): 24
+Total time: 2080.98324091100
 
 L=3216 cupy
 iter:   5000, Mass check: 9998243.999998577
