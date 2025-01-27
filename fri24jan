@@ -11,5 +11,15 @@ L=3216 og
 Million Lattice Udates Per second(MLUPs): 24
 
 L=3216 cupy
+iter:   5000, Mass check: 9998243.999998577
+        Time boundaries       0.0099256690
+        Time streaming        5.4995899290
+        Time macroscopic      22.7695875960
+        Time equilibrium      9.3451160489
+        Time source_force     0.0032796480
+        Time collision        2.2528248500
+        Time sum              39.8803237409
+MLUPs: 24.788843543123885
+Total time: 2016.6822188793449
 
 
