@@ -8,6 +8,8 @@ MLUPs: 31.01152321943959
 Total time: 161.2303905428853
 
 L=3216 og
-MLUPs: 24
-t = 168s
+Million Lattice Udates Per second(MLUPs): 24
+
+L=3216 cupy
+
 
